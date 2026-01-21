@@ -1,0 +1,14 @@
+# Markdownlint configuration for Hugo sites
+# These rules conflict with Hugo shortcodes and theme patterns
+
+# Disable line length - URLs and shortcodes often exceed 80 chars
+MD013: false
+
+# Disable inline HTML - Hugo uses HTML in shortcodes
+MD033: false
+
+# Disable multiple H1 - Hugo has title in frontmatter + content heading
+MD025: false
+
+# Disable bare URLs - Hugo shortcodes use bare URLs
+MD034: false
