@@ -74,6 +74,7 @@ jobs:
             --exclude-private
             --exclude="mailto:"
             --exclude="https://github.com/dcm-project/enhancements/blob/main/"
+            --exclude="https://provider-1.local/"
             ./public
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
